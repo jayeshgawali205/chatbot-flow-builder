@@ -1,0 +1,59 @@
+.nodes-panel {
+  padding: 1rem;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.nodes-panel h3 {
+  margin: 0 0 1rem 0;
+  color: #495057;
+  font-size: 1.1rem;
+}
+
+.draggable-node {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: grab;
+  transition: all 0.2s;
+}
+
+.draggable-node:hover {
+  border-color: #007bff;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.15);
+}
+
+.draggable-node:active {
+  cursor: grabbing;
+}
+
+.node-preview {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.node-preview .node-icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.node-preview span:last-child {
+  font-weight: 600;
+  color: #495057;
+}
+
+.node-description {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.future-nodes {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #6c757d;
+  font-style: italic;
+}

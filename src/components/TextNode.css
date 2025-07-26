@@ -1,0 +1,60 @@
+.text-node {
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s;
+}
+
+.text-node.selected {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 6px 6px 0 0;
+}
+
+.node-icon {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.node-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.node-content {
+  padding: 12px;
+}
+
+.node-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 1.4;
+}
+
+.handle {
+  width: 8px;
+  height: 8px;
+  background: #007bff;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.target-handle {
+  top: -6px;
+}
+
+.source-handle {
+  bottom: -6px;
+}
