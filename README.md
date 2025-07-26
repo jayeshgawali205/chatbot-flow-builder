@@ -6,7 +6,7 @@ A React-based visual flow builder for creating chatbot conversation flows using 
 
 **Deployed Application**: https://chatbot-flow-builder-h48q6jp0c-jayesh-gawalis-projects.vercel.app
 
-**GitHub Repository**:
+**GitHub Repository**: https://github.com/jayeshgawali205/chatbot-flow-builder
 
 ---
 
@@ -247,6 +247,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---
 
-**Project Created by:** [Jayesh Gawali]  
+**Project Created by:** Jayesh Gawali  
 **Task:** BiteSpeed Frontend Task - Chatbot Flow Builder  
 **Technologies:** React, React Flow, CSS3, Create React App
+**Submission Date:** 26-07-2025
